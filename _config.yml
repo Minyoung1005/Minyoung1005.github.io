@@ -81,3 +81,12 @@ plugins:
 - jekyll-feed
 - jemoji
 - jekyll-include-cache
+
+
+
+# Add links to the sidebar
+
+menu:
+
+- title: 'hello'
+- url: /hello/
