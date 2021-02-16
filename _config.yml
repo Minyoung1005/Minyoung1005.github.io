@@ -83,13 +83,8 @@ plugins:
 - jekyll-include-cache
 <<<<<<< HEAD
 
-
-
-# Add links to the sidebar
-
 menu:
 
 - title: 'hello'
-- url: /hello/
-=======
->>>>>>> 72c0180760339e67a52a0812a5a8fd2bf34c85a9
+- url: '/hello/'
+
