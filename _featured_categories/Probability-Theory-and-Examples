@@ -1,9 +1,9 @@
 ---
 layout: list
 title: Probability Theory and Examples
-slug: <new folder name>
+slug: Probability Theory and Examples
 menu: true
-permalink: /<new folder name>/
+permalink: /Probability-Theory-and-Examples/
 order: 1
 sitemap: false
 description: >
