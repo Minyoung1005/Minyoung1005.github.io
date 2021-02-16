@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Welcome to Jekyll"
-categories: android
+categories: [android, hello]
 ---
 
 # Welcome
