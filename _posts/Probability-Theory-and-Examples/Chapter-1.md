@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Chapter 1"
-categories: [Probability-Theory-and-Examples]
+categories: [Probability-Theory-and-Examples, Probability Theory and Examples]
 ---
 
 # Chapter 1
