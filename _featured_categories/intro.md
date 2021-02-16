@@ -1,9 +1,9 @@
 ---
 layout: list
 title: Introduction
-slug: <new folder name>
+slug: Introduction
 menu: true
-permalink: /<new folder name>/
+permalink: /Introduction/
 order: 1
 sitemap: false
 description: >
