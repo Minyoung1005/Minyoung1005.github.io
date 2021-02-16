@@ -1,11 +1,11 @@
 ---
-​---
+
 layout: post
 title: My First Article
 comments: true
-categories: android
-tags: android
-​---
+categories: [android]
+tags: [android]
+
 
 ---
 
