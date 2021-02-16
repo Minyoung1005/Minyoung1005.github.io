@@ -4,6 +4,6 @@ title: "Chapter 1"
 categories: [Probability-Theory-and-Examples]
 ---
 
-# Welcome
+# Chapter 1
 
-**Hello world**, this is my first jekyll blog post.
+probability wowwowwow
