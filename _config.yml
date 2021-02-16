@@ -1,5 +1,5 @@
 lang:                  en
-title:                 Hydejack
+title:                 Minyoung Hwang
 copyright:             © 2021. All rights reserved.
 
 accent_image:          /assets/img/sidebar-bg.jpg
@@ -81,6 +81,7 @@ plugins:
 - jekyll-feed
 - jemoji
 - jekyll-include-cache
+<<<<<<< HEAD
 
 
 
@@ -90,3 +91,5 @@ menu:
 
 - title: 'hello'
 - url: /hello/
+=======
+>>>>>>> 72c0180760339e67a52a0812a5a8fd2bf34c85a9
