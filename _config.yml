@@ -115,3 +115,22 @@ author:
     github:            Minyoung1005
     email:             minyoung1005@snu.ac.kr
 
+menu:
+  - title:             Project
+    url:               /project/
+  - title:             About
+    url:               /about/
+    submenu:           
+      - title:           Experience
+        url:             /experience/
+      - title:           Volunteer
+        url:             /volunteer/
+      - title:           Education
+        url:             /education/
+  - title:             Mathematics
+    url:               /mathematics/
+    submenu:
+      - title:           Graph-Theory
+        url:             /graph-theory/
+      - title:           Probabilistic-Theory-and-Examples
+        url:             /probabilistic-theory-and-examples/
