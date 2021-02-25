@@ -130,7 +130,7 @@ menu:
   - title:             Mathematics
     url:               /mathematics/
     submenu:
-      - title:           Graph-Theory
+      - title:           Graph Theory
         url:             /graph-theory/
-      - title:           Probabilistic-Theory-and-Examples
+      - title:           Probabilistic Theory and Examples
         url:             /probabilistic-theory-and-examples/
