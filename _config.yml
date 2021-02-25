@@ -132,5 +132,5 @@ menu:
     submenu:
       - title:           Graph Theory
         url:             /graph-theory/
-      - title:           Probabilistic Theory and Examples
-        url:             /probabilistic-theory-and-examples/
+      - title:           Probability Theory and Examples
+        url:             /probability-theory-and-examples/
