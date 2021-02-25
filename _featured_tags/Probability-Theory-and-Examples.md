@@ -7,5 +7,5 @@ category: Mathematics
 sidebar: true
 order: 1
 description: >
-   Probabilistic Theory study / Problem solutions
+   Probability Theory study / Problem solutions
 ---
