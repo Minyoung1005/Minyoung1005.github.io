@@ -117,20 +117,20 @@ author:
 
 menu:
   - title:             Project
-    url:               /project/
+    url:               /Project/
   - title:             About
-    url:               /about/
+    url:               /About/
     submenu:           
       - title:           Experience
         url:             /experience/
       - title:           Volunteer
-        url:             /volunteer/
+        url:             /Volunteer/
       - title:           Education
-        url:             /education/
+        url:             /Education/
   - title:             Mathematics
-    url:               /mathematics/
+    url:               /Mathematics/
     submenu:
       - title:           Graph Theory
-        url:             /graph-theory/
+        url:             /Graph-Theory/
       - title:           Probability Theory and Examples
-        url:             /probability-theory-and-examples/
+        url:             /Probability-Theory-and-Examples/
