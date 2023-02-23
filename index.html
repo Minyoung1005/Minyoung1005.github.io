@@ -161,6 +161,49 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 					
+          <tr onmouseout="metaexplore_stop()" onmouseover="metaexplore_start()"  >
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='metaexplore_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="videos/meta-explore-overview.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/meta-explore-env.png' width="180">
+              </div>
+              <script type="text/javascript">
+                function metaexplore_start() {
+                  document.getElementById('metaexplore_image').style.opacity = "1";
+                }
+
+                function metaexplore_stop() {
+                  document.getElementById('metaexplore_image').style.opacity = "0";
+                }
+                metaexplore_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <!-- <a href="https://dreamfusion3d.github.io/"> -->
+                <papertitle  style="font-size:medium" style="font-size:medium">Meta-Explore: Exploratory Hierarchical Vision-and-Language Navigation Using Scene Object Spectrum Grounding</papertitle  style="font-size:medium">
+              <!-- </a> -->
+              <br>
+              <strong>Minyoung Hwang</strong>,
+              Jaeyeon Keong, Minsoo Kim, Yoonseon Oh,
+              <a href="http://rllab.snu.ac.kr/people/songhwai-oh">Songhwai Oh</a>
+              <br>
+              <em>In Submission</em>, 2023
+              <br> 
+              <!-- <a href="https://dreamfusion3d.github.io/">project page</a>
+              / -->
+              <a href="https://drive.google.com/file/d/1qpvS0zBjyGvtUupkvAWPytMIimr30iyj/view?usp=share_link">paper</a>
+              <!-- / -->
+              <!-- <a href="https://dreamfusion3d.github.io/gallery.html">gallery</a> -->
+              <p></p>
+              <p>
+                We propose and end-to-end learnable hierarchical navigation policy for vision-and-language navigation (VLN) that finds an unvisited and near-optimal local goal by recognizing semantically meaningful clues.
+              </p>
+            </td>
+          </tr>
+          
           <tr onmouseout="improving_stop()" onmouseover="improving_start()"  >
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
