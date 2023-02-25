@@ -290,22 +290,22 @@
             </td>
           </tr>
 
-          <tr onmouseout="geometric_stop()" onmouseover="geometric_start()"  >
+          <tr onmouseout="multiview_stop()" onmouseover="multiview_start()"  >
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <!-- <div class="two" id='dreamfusion_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="images/dreamfusion.mp4" type="video/mp4">
+                <div class="two" id='multiview_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="videos/multiview.mp4" type="video/mp4">
                 Your browser does not support the video tag.
-                </video></div> -->
-                <img src='images/video_inference.png' width="160">
+                </video></div>
+                <img src='images/multiview_2.png' width="160">
               </div>
               <script type="text/javascript">
-                function geometric_start() {
-                  document.getElementById('dreamfusion_image').style.opacity = "1";
+                function multiview_start() {
+                  document.getElementById('multiview_image').style.opacity = "1";
                 }
 
                 function geometric_stop() {
-                  document.getElementById('dreamfusion_image').style.opacity = "0";
+                  document.getElementById('multiview_image').style.opacity = "0";
                 }
                 geometric_stop()
               </script>
