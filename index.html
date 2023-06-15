@@ -84,7 +84,7 @@
 
         <hr>
 
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
           <tbody><tr>
             <td width="8%" valign="middle">
               <a href="https://en.snu.ac.kr/index.html"><img src="images/snu_logo.png" width="120"></a>
@@ -98,10 +98,10 @@
             <td width="20%" valign="middle">
               <a href="https://neurosky.com/"><img src="images/NeuroSky_logo.png" width="160"></a>
             </td>
-            <!-- <td width="10%" valign="middle">
-              <a href="https://www.inria.fr/en/"><img src="media/inria_logo.jpg" width="90"></a>
+            <td width="20%" valign="middle">
+              <a href="https://allenai.org/"><img src="images/ai2.png" width="90"></a>
             </td>
-            <td width="10%" valign="middle">
+            <!-- <td width="10%" valign="middle">
               <a href="https://vision.in.tum.de"><img src="media/tum_logo.jpg" width="60"></a>
             </td>	
             <td width="10%" valign="middle">
@@ -191,13 +191,59 @@
               Jaeyeon Jeong, Minsoo Kim, Yoonseon Oh,
               <a href="http://rllab.snu.ac.kr/people/songhwai-oh">Songhwai Oh</a>
               <br>
-              <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2023
+              <!-- <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2023 -->
+              <em>In Submission</em>
               <br> 
               <!-- <a href="https://dreamfusion3d.github.io/">project page</a>
               / -->
-              <a href="https://arxiv.org/pdf/2303.04077.pdf">paper</a>
+              <a href="https://drive.google.com/file/d/1TkLzdjsOSgja3kaN4k1SpBtXkGMa-xwY/view?usp=sharing">paper</a>
               <!-- / -->
               <!-- <a href="https://dreamfusion3d.github.io/gallery.html">gallery</a> -->
+              <p></p>
+              <p>
+                We propose a feedback-efficient PBRL algorithm.
+              </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="metaexplore_stop()" onmouseover="metaexplore_start()"  bgcolor="#ffffd0">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='metaexplore_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="videos/metaexplore_overview_square.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/metaexplore_overview.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function metaexplore_start() {
+                  document.getElementById('metaexplore_image').style.opacity = "1";
+                }
+
+                function metaexplore_stop() {
+                  document.getElementById('metaexplore_image').style.opacity = "0";
+                }
+                metaexplore_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <!-- <a href="https://dreamfusion3d.github.io/"> -->
+                <papertitle  style="font-size:medium" style="font-size:medium">Meta-Explore: Exploratory Hierarchical Vision-and-Language Navigation Using Scene Object Spectrum Grounding</papertitle  style="font-size:medium">
+              <!-- </a> -->
+              <br>
+              <strong>Minyoung Hwang</strong>,
+              Jaeyeon Jeong, Minsoo Kim, Yoonseon Oh,
+              <a href="http://rllab.snu.ac.kr/people/songhwai-oh">Songhwai Oh</a>
+              <br>
+              <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2023
+              <br> 
+              <a href="https://rllab-snu.github.io/projects/Meta-Explore/doc.html">project page</a>
+              |
+              <a href="https://www.youtube.com/watch?v=nxWUedX5VpQ&t=3s">video</a>
+              |
+              <a href="https://arxiv.org/pdf/2303.04077.pdf">paper</a>
+              |
+              <a href="https://drive.google.com/file/d/13Svj1DkEKOY4emNmGqa8f31EQImmQess/view?usp=sharing">poster</a>
               <p></p>
               <p>
                 We propose and end-to-end learnable hierarchical navigation policy for vision-and-language navigation (VLN) that finds an unvisited and near-optimal local goal by recognizing semantically meaningful clues.
